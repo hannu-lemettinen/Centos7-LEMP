@@ -7,7 +7,6 @@ Guide to build LEMP stack in Centos7
 
 https://www.getpagespeed.com/server-setup/nginx/install-ngx_pagespeed-dynamic-module-centos-7
 
-yum install https://extras.getpagespeed.com/release-el7-latest.rpm
 
 ## MariaDB
 Install:
@@ -20,3 +19,6 @@ Start and do secure installation:
 sudo systemctl start mariadb
 sudo mysql_secure_installation
 ```
+
+## PHP7.2
+https://www.cyberciti.biz/faq/how-to-install-php-7-2-on-centos-7-rhel-7/
