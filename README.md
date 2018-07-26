@@ -47,3 +47,12 @@ install
 ```console
 yum install php php-fpm php-gd php-json php-mbstring php-mysqlnd php-xml php-xmlrpc php-opcache
 ```
+
+enable and start php-fpm service
+```console
+sudo systemctl enable php-fpm.service
+sudo systemctl start php-fpm.service
+```
+
+
+
