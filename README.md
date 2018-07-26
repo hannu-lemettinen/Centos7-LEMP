@@ -43,3 +43,7 @@ Enable remi repo, run:
 sudo yum-config-manager --enable remi-php72
 sudo yum update
 ```
+install
+```console
+yum install php php-fpm php-gd php-json php-mbstring php-mysqlnd php-xml php-xmlrpc php-opcache
+```
