@@ -22,3 +22,16 @@ sudo mysql_secure_installation
 
 ## PHP7.2
 https://www.cyberciti.biz/faq/how-to-install-php-7-2-on-centos-7-rhel-7/
+
+install epel-release
+```console
+sudo yum install epel-release
+````
+turn on remi release
+```console
+sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+```
+Install yum-utils packages too:
+```console
+ sudo yum install yum-utils
+```
