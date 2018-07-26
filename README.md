@@ -27,11 +27,19 @@ install epel-release
 ```console
 sudo yum install epel-release
 ````
+
 turn on remi release
 ```console
 sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 ```
+
 Install yum-utils packages too:
 ```console
- sudo yum install yum-utils
+sudo yum install yum-utils
+```
+
+Enable remi repo, run:
+```console
+sudo yum-config-manager --enable remi-php72
+sudo yum update
 ```
