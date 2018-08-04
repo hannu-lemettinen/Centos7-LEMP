@@ -54,5 +54,11 @@ sudo systemctl enable php-fpm.service
 sudo systemctl start php-fpm.service
 ```
 
+## Firewalld
+set firewall 
 
+https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-centos-7-servers
+
+## Automatic updates
+https://linuxaria.com/howto/enabling-automatic-updates-in-centos-7-and-rhel-7
 
