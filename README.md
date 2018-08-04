@@ -5,9 +5,10 @@ Guide to build LEMP stack in Centos7
 ## NGINX
 ### Install ngx_pagespeed dynamic module on CentOS 7
 
-### NGINX server blocks
-
 https://www.getpagespeed.com/server-setup/nginx/install-ngx_pagespeed-dynamic-module-centos-7
+
+### NGINX server blocks
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-on-centos-7
 
 
 ## MariaDB
