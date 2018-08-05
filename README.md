@@ -11,6 +11,9 @@ https://www.getpagespeed.com/server-setup/nginx/install-ngx_pagespeed-dynamic-mo
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-on-centos-7
 
 
+## NGINX and SELINUX
+https://www.getpagespeed.com/server-setup/nginx/nginx-selinux-configuration
+
 ## MariaDB
 Install:
 ```console
