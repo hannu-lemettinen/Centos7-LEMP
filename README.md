@@ -78,3 +78,7 @@ sudo firewall-cmd --reload
 ## Automatic updates
 https://linuxaria.com/howto/enabling-automatic-updates-in-centos-7-and-rhel-7
 
+## Mails
+
+http://fasterland.net/sending-email-via-php-centos-7-using-sendmail.html
+
