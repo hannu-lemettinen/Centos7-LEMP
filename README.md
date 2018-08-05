@@ -62,6 +62,19 @@ set firewall
 
 https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-centos-7-servers
 
+```console
+sudo yum install firewalld
+sudo systemctl start firewalld
+sudo firewall-cmd --permanent --add-service=ssh
+sudo firewall-cmd --zone=public --permanent --add-service=http
+sudo firewall-cmd --zone=public --permanent --add-service=https
+```
+Reload firewalld to implement the new firewall rules:
+
+```console
+sudo firewall-cmd --reload
+
+
 ## Automatic updates
 https://linuxaria.com/howto/enabling-automatic-updates-in-centos-7-and-rhel-7
 
